@@ -61,4 +61,4 @@ Edit the `config.js` file
 
 # Run
 
-npm run start
+node index.js
