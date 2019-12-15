@@ -1,0 +1,27 @@
+{
+  "name": "rest2db",
+  "version": "1.0.0",
+  "description": "Invoke REST and save to DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agelbess/rest2db.git"
+  },
+  "keywords": [
+    "REST",
+    "database"
+  ],
+  "author": "Alexandros Gelbessis",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/agelbess/rest2db/issues"
+  },
+  "homepage": "https://github.com/agelbess/rest2db#readme",
+  "dependencies": {
+    "mssql": "^6.0.1",
+    "node-libcurl": "^2.0.3"
+  }
+}
