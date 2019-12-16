@@ -1,4 +1,7 @@
 const config = {
+    rest: {
+        delay: 100 // in millis
+    },
     database: {
         url: 'mssql://sa:p%40ssw0rd@localhost/master',
         sql: {

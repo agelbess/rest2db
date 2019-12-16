@@ -1,11 +1,12 @@
 const curl = require('./curl')
 const mssql = require('./mssql')
+const config = require('./config')
 
 var done = 0
 async function start() {
     const ids = await mssql.getIds()
     ids.forEach(async (element, i) => {
-        setTimeout(() => doOnContainer(element, ids), i * 100)
+        setTimeout(() => doOnContainer(element, ids), i * config.rest.delay)
     });
 }
 
