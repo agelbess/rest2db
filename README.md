@@ -45,6 +45,7 @@ Download the dependencies
 # Configuration
 
 Edit the `config.js` file
+
     rest: {
         delay: 100 // in millis
     },
